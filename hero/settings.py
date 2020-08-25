@@ -25,7 +25,7 @@ SECRET_KEY = '!t9l#8gjyz!#=p1sr5+0ozsh@#0a!p6*9z&_b78jk5_rng6(4k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['radiant-taiga-90209']
 
 
 # Application definition
