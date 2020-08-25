@@ -5,3 +5,4 @@
 # C:\Users\Sezar\Desktop\Projects\Django\hero\hero\hero\wsgi.py: 12
 # C:\Users\Sezar\Desktop\Projects\Django\hero\hero\manage.py: 11
 Django == 3.1
+gunicorn==19.9.0
