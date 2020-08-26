@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+from socket import gethostname, gethostbyname 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
@@ -25,7 +27,7 @@ SECRET_KEY = '!t9l#8gjyz!#=p1sr5+0ozsh@#0a!p6*9z&_b78jk5_rng6(4k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['peaceful-beach-53448.herokuapp.com']
+ALLOWED_HOSTS = [ gethostname(), gethostbyname(gethostname()), ] 
 
 
 # Application definition
